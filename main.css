@@ -1,10 +1,14 @@
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
 .background{
     background : url(images/noir.jpg) no-repeat ;
     background-size: cover;
     height: 100vh;
 }
 
-.para1{
+/*.para1{
     font: italic 1.2em "Fira Sans", serif;
     font-size: 10vh;
     color: whitesmoke;
@@ -15,13 +19,13 @@
     width: 135vh;
 }
 
-/*@media screen and (max-width: 64em) {
+@media screen and (max-width: 64em) {
     .para1 {
         font-size: 2.5em;
         width: 60vh;
       }
     }
-*/
+
 @keyframes apparition {
     0%{
         opacity: 0;
@@ -56,4 +60,101 @@ body{
     font-weight: 300;
     line-height: 1.42em;
 }
+*/
+#position{
+    margin-top: 20vh;
+}
 
+body {
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-weight: 300;
+  line-height: 1.42em;
+  color:white;
+  /*background-color:#1F2739;*/
+}
+
+h1 {
+  font-family: "Optima", sans-serif;
+  font-size:3em; 
+  font-weight: 300;
+  line-height:1em;
+  text-align: center;
+  color: red;
+}
+
+.contain th h1 {
+    font-weight: bold;
+	font-size: 1em;
+    text-align: center;
+    color: white;
+}
+
+.contain td {
+	font-weight: normal;
+	font-size: 1em;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	-moz-box-shadow: 0 2px 2px -2px #0E1119;
+	box-shadow: 0 2px 2px -2px #0E1119;
+    text-align: center;
+}
+
+.contain {
+	text-align: left;
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+    display: table;
+    padding: 0 0 8em 0;
+}
+
+.contain td, .container1 th {
+	padding-bottom: 2%;
+	padding-top: 2%;
+    padding-left:2%;  
+}
+
+/* Background-color of the odd rows */
+.contain tr:nth-child(odd) {
+	background-color: rgba(0, 0, 0,0.5);
+}
+
+/* Background-color of the even rows */
+.contain tr:nth-child(even) {
+	background-color: rgba(128,128,128,0.5);
+}
+
+.contain th {
+	background-color: rgba(128,128,128,0.5);
+}
+
+/*.container1 td:first-child { color: #FB667A; }*/
+
+.contain tr:hover {
+    background-color: #464A52;
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+	-moz-box-shadow: 0 6px 6px -6px #0E1119;
+	box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.contain td:hover {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  
+  box-shadow: grey -1px 1px, grey -2px 2px, grey -3px 3px, grey -4px 4px, grey -5px 5px, grey -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+	  transition-duration: 0.4s;
+	  transition-property: all;
+  transition-timing-function: line;
+}
+
+@media (max-width: 800px) {
+.contain td:nth-child(4),
+.contain th:nth-child(4) { display: none; }
+}
+
+.round{
+    border-radius: 10px;
+}
