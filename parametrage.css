@@ -76,7 +76,7 @@ h1 {
 	box-shadow: 0 6px 6px -6px #0E1119;
 }
 
-.contain td:hover {
+.tdd:hover {
   background-color: red;
   color: white;
   font-weight: bold;
