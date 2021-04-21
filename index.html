@@ -1,30 +1,111 @@
 <!DOCTYPE html>
 <html>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>   
     <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js">-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="main.css">
-</html>
+    <link rel="stylesheet" href="index.css">
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Klenkle Mickaël</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">A propos de moi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#parcours">Mon parcours scolaire</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Expérience professionnel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#outils">Outils et compétences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#intérêts">Mes centres d'intérêts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <head>
+      <title>Klenkle Mickaël</title>
+    </head>
+</html>
 <body class="background" id="position">
-  <h1>Gestion de l'energie du batiment</h1><hr>
-    
-  <table class="contain">
-      <thead>
-        <tr>
-          <th colspan="4"><h2>Serveur web pour la gestion de l'energie d'une salle de classe pour but d'éviter le gaspillage d'énergie.</h2></th>
-        </tr>
-      </thead>
+ 
+  <h1 id="moi"><span>A propos de moi</h1><hr class="hrstyle">
+    <table class="contain">
       <tbody>
         <tr>
-          <td><a href=parametrage.html><button class="btn" type="button">Paramétrage</button></a></td>
-          <td><a href=supervision.html><button class="btn" type="button">Supervision</button></a></td>
-          <td><a href=maintenance.html><button class="btn" type="button">Maintenance</button></a></td>
-          <td><a href=essais.html><button class="btn" type="button">Essais</button></a></td>
+          <td><img class="img" src="images/photo.jpg" alt="photo identité" width="200" height="250"></td>
+          <td class="tdd"><br>Je m'appelle Klenkle Mickaël, je suis étudiant en informatique. Je suis actuellement en deuxième année de BTS système numérique en option informatique et réseaux. Ce que j'aime dans ce milieu c'est la création d'application ou encore de site internet. Je suis quelqu'un qui aime apprendre de nouvelles choses dans le domaine informatique, je suis motivé et surtout curieux de découvrir de nouvelles choses. Je suis quelqu'un de positif, joyeux et très motivé à continuer de construire mon avenir dans l'informatique.</td>
+        </tr>
+      </tbody>
+    </table ><br>
+
+    <h1 id="parcours"><span>Mon parcours scolaire</h1><hr class="hrstyle">
+      <table class="contain">
+        <tbody>
+          <tr>
+            <td class="tdd">En cours: BTS système numérique, option informatique est réseaux<hr>Bac scientifique option Science et Vie de la Terre spécialiré Mathématique<hr>Brevet des collèges</td>
+          </tr>
+        </tbody>
+      </table><br>
+
+  <h1 id="experience">Expériences professionnel</h1><hr class="hrstyle">
+
+    <table class="contain">
+      <tbody>
+        <tr>
+          <td class="tdd">
+            <h2>E.LECLERC | 2016</h2><hr>
+            <h3>Stagiaire pendant 2 semaine</h3>
+            <p>-Conseil clientèle<br>-Rayonnage</p>
+          </td>
+          <td class="tdd">
+            <h2>DREAM STATION | 2020</h2><hr>
+            <h3>Stagiaire pendant 4 semaine</h3>
+            <p>-Montage d'ordinateur<br>-Réparations informatique<br>-Conseil clientèle<br>-Rayonnage<br>-Gestion de stock</nr></p>
+          </td>
+        </tr>
+      </tbody>
+    </table><br>
+
+    <h1 id="outils">Outils et compétences</h1><hr class="hrstyle">
+
+    <table class="contain">
+      <tbody>
+        <tr>
+          <td class="tdd"><img class="img align-middle" src="images/compétence.png"><p class="pp">  - Création de site web (html/CSS/JavaScript)<br>  - Installation de NAS<br>  - Montage informatique<br>  - Installation de système d'exploitation (principalement windows)<br>  - PowerPoint, Excel, Word, Visual Studio<br>  - Connaissances en réseaux (DHCP,SSH,DNS,AdresseIP,etc..)</p></td>
+        </tr>
+      </tbody>
+    </table><br>
+
+    <h1 id="intérêts"><span>Mes centres d'intérêts</h1><hr class="hrstyle">
+      <table class="contain">
+        <tbody>
+          <tr>
+            <td class="tdd"><p class="love">J'aime:</p><br>Apprendre et me perfectionner dans le domaine de l'informatique où d'autre domaine<hr>Pratiquer le Judo (actuellement 8ans de pratiques et une ceinture marron)<hr>Faire du sport en général(jouer au foot, salle de musculation)<hr>Ecouter de la musique (parfois essayer aussi de composer différente mélodie sur ordinateur)<hr>Jouer aux jeux vidéos</td>
+            </tr>
+        </tbody>
+      </table><br>
+
+    <h1 id="contact">Contact</h1><hr class="hrstyle">
+
+    <table class="contain">
+      <tbody>
+        <tr>
+          <td class="tdd"><h4>Travaillons ensemble !</h4><hr>Email: mickaelklenkle1@outlook.fr<br>Mobile: 06-92-10-48-12</td>
         </tr>
       </tbody>
     </table>
-    
 </body>
-
